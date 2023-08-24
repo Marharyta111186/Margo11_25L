@@ -13,7 +13,8 @@ public class Flower extends Plants{
     }
 
     public void doAutumn() {
-        System.out.println(getName() + " has not grown in Autumn - "+getHeight());
+        setHeight(0);
+        System.out.println(getName() + " has not grown in Autumn, they cut tu zero - "+getHeight());
     }
 
     @Override
